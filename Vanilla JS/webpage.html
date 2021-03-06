@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>SPA</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+
+	<div class="container-fluid">
+
+
+		 <div class="row">
+		 <div class="col-md-3 col-sm-6">
+		 	<header class="timer">Time on page
+		 		<h1 id="T1" class=""></h1>
+		 		<label for=""> From firebase</label>
+		 		<h2 id="T2"></h2>
+		 		<!-- <button id="b1">click me</button> -->
+		 	</header>
+		 </div>
+
+		  <div class="col-md-3 col-sm-6">
+		 	<div id="list">
+		 		<h2>column 2</h1>
+		 		<button class="film_list" id="b2">get films list</button>
+		 		<div id="film-container">
+		 		</div>
+     	</div>
+		 </div>
+		 <div class="col-md-3 col-sm-6" >
+		 	<h3>column 3</h1>
+		 		<div id="film_detail">
+		 			
+		 		</div>
+		 </div>
+	     </div>
+
+        <div class="row " >
+		    <div class="col-md-12 col-sm-6   mt-5">
+		    	<form id="form_id">
+
+	       <input type="text" id="country_value" placeholder="enter your city name" >
+	       <input type="submit" id="count_name" name="" value="Search?">
+	       <button id="geotag"><i class="fa fa-location-arrow" aria-hidden="true"></i>Current location</button>
+	       </form>
+	        <div id="weather-details"  style="border-radius:10px">
+	       	   <h1 id="country-name"></h1>
+	       	   <div id="weatherMain">
+	       		  <div id="temp"></div>
+	       		  <div id="weatherDescription"></div>
+	       		  <div ><img id="documentIconImg"></div>
+	       	   </div>
+	       	<hr>
+                <div id="windSpeed" class="bottom-details"></div>
+                <div id="humidity" class="bottom-details"></div>
+                <div id="sunrise" class="bottom-details"></div>
+	        </div>
+
+	       
+          </div>
+         </div>
+
+
+
+
+	   </div>   
+   		
+
+
+
+
+
+
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  
+
+  
+  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
+
+  <script >
+  	var firebaseConfig = {
+    apiKey: "AIzaSyC_GF9A1SE8IyfIMuh0nH_vWSyfrPZ8Mpw",
+    authDomain: "spaw-805ca-6310e.firebaseapp.com",
+    databaseURL: "https://spaw-805ca-6310e.firebaseio.com",
+    projectId: "spaw-805ca",
+    storageBucket: "",
+    messagingSenderId: "776870084790",
+    appId: "1:776870084790:web:4bdda122e25715aa"
+  };
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore(); 
+  </script>
+  
+
+  <script src="webpage.js" type="text/javascript"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+</body>
+</html>

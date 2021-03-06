@@ -1,0 +1,109 @@
+body{
+  
+  background: #CEC8AF;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+.container{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+
+}
+/*.list{
+list-style: none;
+display: 
+}*/
+
+hr{
+	border: 1px solid;
+	width: 300;
+}
+
+h1{
+ font-size: 300%;
+    position: relative;
+    align-content: center;
+    text-align: center;
+ /*padding-left: 100px;*/
+
+}
+#inner .list{
+	list-style: none;
+	display: inline-block;
+	/*text-align: center;*/
+	/*padding: 10px 20px; */
+	cursor:pointer;
+	transition: background-color .5s;
+
+	
+}
+#inner .list:hover{
+
+	background-color: #E1CE76;
+}
+
+#img1{
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+}
+
+ #img1 img{
+
+	width:80px;
+	height:65px;
+	/*padding-left: 100px;*/
+	align-items: center;
+	cursor:pointer;
+	z-index: auto;
+
+}
+
+#outer #img1 h2{
+	position: relative;
+	font-size: 150%;
+}
+
+ 
+ /*.tooltip-parent {
+  position: relative;
+  display: inline-block;
+}*/
+.text h3{
+ font-size: 200%;
+ position: relative	;
+ /*padding-left: 550px;*/
+ text-align: center;
+}
+
+.text p{
+	
+	font-size: 100%;
+	max-width: 500px;
+ position: relative	;
+ /*padding-left: 500px;
+ padding-right: 400px;*/
+ margin: 0;
+  text-indent: 1ch;
+  align-content: center;
+  text-align: center;
+}
+/*#hovertext_1 {
+  
+}*/
+#hovertext_1{
+ /* padding: 4px 8px;*/
+  color: #fff;
+  position: relative;
+  left: 80px;
+  white-space: nowrap;  
+  border-radius: 5px;  
+  background:#000;
+}
+/* Show the tooltip text when you mouse over the tooltip container */

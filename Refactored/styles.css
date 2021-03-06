@@ -1,0 +1,159 @@
+body{
+
+	background-color: white;
+	font-family: 'Grenze', serif;
+	color: black;
+	opacity: 0.7;
+
+}
+
+#weatherContainer {
+	background-color: rgba(0,0,0, 0.3);
+	box-shadow: 2px 1px 7px black;
+	padding: 60px;
+	border-radius: 10px;
+	position: absolute;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position:center;
+	visibility: hidden;
+	margin-right: 33%;
+	margin-left: 33%;
+	min-width: 400px;
+
+
+
+}
+
+#weatherContainer h5 {
+	margin: 5px;
+	font-size: 42px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#searchContainer {
+	padding: 5px;
+	position: relative;
+	width: 100%;
+	margin-right: 33%;
+	margin-left: 33%;
+}
+}
+/*#searchContainer input {
+	background-color: rgba(1,0,0, 0.25);
+
+}*/
+/*#searchContainer button {
+    background-color: rgba(1,1,1, 0.95);
+    
+    }*/
+    ::placeholder{
+
+    	color: black;
+    }
+
+/*#geoButton{
+
+	padding: 5px;
+	}*/
+
+	.locationButton{
+		background-color: rgba(1,0,0, 0.25);
+		box-shadow: 2px 2px 5px black;
+		border: none;
+		border-radius: 5px;
+		padding: 5px;
+		/*color: white;*/
+	}
+	#dropdownButton{
+		box-shadow: 2px 2px 5px black;
+		border: none;
+		border-radius: 5px;
+		background-color: rgba(1,1,1, 0.25);
+		color: black;
+	}
+
+	.searchControl {
+		background-color: rgba(1,0,0, 0.45);
+		box-shadow: 2px 2px 5px black;
+		border: none;
+		border-radius: 5px;
+		padding: 5px;
+		/* color: white;*/
+
+	}
+	#count_name{
+		margin:10px;
+
+	}
+	#weatherMain {
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	#weatherMain div{
+
+		display: inline-block;
+		padding: 5px;
+
+	}
+	#temp {
+		font-size: 38px;
+
+	}
+
+	
+.hr1{
+size: 5;
+
+
+}
+	hr{
+		margin-bottom: 20px;
+		size: 5;
+
+	}
+	#b2
+	{
+		background-color: rgba(1,1,1, 0.95);
+		border-radius: 7px;
+		padding: 5px;
+		color: white;
+
+	}
+	#head{
+
+		margin-top: 10px;
+	}
+	#b2:hover{
+
+		background-color: #2980B0;
+
+	}
+
+
+/*h4{
+
+	text-align: center;
+}*/
+
+#detail{
+
+	margin-top: 20px;
+}
+	#film_detail{
+
+		background-color: rgba(0,0,0, 0.3);
+	box-shadow: 2px 1px 7px black;
+	padding: 60px;
+	border-radius: 10px;
+	position: relative;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position:center;
+	visibility: hidden;
+	
+
+	}

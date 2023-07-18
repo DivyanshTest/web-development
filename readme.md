@@ -1,4 +1,4 @@
-This repo consists of the projec files using react-redux and it has multiple files ie: One of the project build up uisng vanilla js which fetches the location weather based upon the search location and current geolocation.
+This repo consists of the project files using react-redux and it has multiple files ie: One of the project is build on vanilla js which fetches the location weather based upon the search location and current geolocation.
 
 Build process:
 
